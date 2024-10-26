@@ -15,6 +15,7 @@ Customer churn prediction helps companies identify customers likely to stop usin
 - 📈 Results
 - 🚀 Deployment
 - 📝 Conclusion
+- 🛠️ Tools Used
 
 ### 📁 Dataset
 The dataset was sourced from Kaggle: Credit Card Customer Churn Prediction. It contains customer demographics, account information, and usage metrics, which were processed and fed into the neural network model.
@@ -94,3 +95,13 @@ The Streamlit application provides an interactive platform for making prediction
 
 ### 📝 Conclusion
 The ANN model accurately predicted customer churn with a high degree of precision. This model can assist businesses in proactively managing customer retention, leading to a better understanding of customer behavior and more targeted marketing strategies.
+
+### 🛠️ Tools Used
+🐍 Python: Core programming language
+📊 Pandas: Data manipulation and analysis
+🧮 NumPy: Numerical computing
+📉 Matplotlib, Seaborn, Plotly: Data visualization
+🔄 PyTorch: Building the neural network
+📈 sklearn: Data preprocessing (train-test split, scaling)
+🌐 Streamlit: Model deployment interface
+🤗 Hugging Face Spaces: Model hosting and deployment platform
