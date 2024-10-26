@@ -1,4 +1,4 @@
-# Customer Churn Prediction Using ANN and PyTorch
+# 💳👨🏻‍💼💁🏻‍♀️ Customer Churn Prediction Using ANN and PyTorch
 Live Web App Link: [Cx Churn Predictor](https://musk12-cx-churn-prediction-with-pytorch.hf.space)
 
 This project predicts customer churn in credit card services using an Artificial Neural Network (ANN) built with PyTorch. The model was trained on the Credit Card Customer Churn Prediction dataset from Kaggle, achieving an accuracy of 86%.
