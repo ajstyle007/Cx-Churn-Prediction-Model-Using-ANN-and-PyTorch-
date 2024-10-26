@@ -17,7 +17,7 @@ Customer churn prediction helps companies identify customers likely to stop usin
 - 📝 Conclusion
 - 🛠️ Tools Used
 
-### 📁 Dataset
+### 📁 Dataset -> [link](https://www.kaggle.com/datasets/rjmanoj/credit-card-customer-churn-prediction)
 The dataset was sourced from Kaggle: Credit Card Customer Churn Prediction. It contains customer demographics, account information, and usage metrics, which were processed and fed into the neural network model.
 
 ### 🧩 Workflow
