@@ -105,3 +105,6 @@ The ANN model accurately predicted customer churn with a high degree of precisio
 - 📈 sklearn: Data preprocessing (train-test split, scaling)
 - 🌐 Streamlit: Model deployment interface
 - 🤗 Hugging Face Spaces: Model hosting and deployment platform
+
+### 🤙 Contact
+[LinkedIn](https://www.linkedin.com/in/ajay-kumar-72ba861b8/)
