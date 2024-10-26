@@ -97,11 +97,11 @@ The Streamlit application provides an interactive platform for making prediction
 The ANN model accurately predicted customer churn with a high degree of precision. This model can assist businesses in proactively managing customer retention, leading to a better understanding of customer behavior and more targeted marketing strategies.
 
 ### 🛠️ Tools Used
-🐍 Python: Core programming language
-📊 Pandas: Data manipulation and analysis
-🧮 NumPy: Numerical computing
-📉 Matplotlib, Seaborn, Plotly: Data visualization
-🔄 PyTorch: Building the neural network
-📈 sklearn: Data preprocessing (train-test split, scaling)
-🌐 Streamlit: Model deployment interface
-🤗 Hugging Face Spaces: Model hosting and deployment platform
+- 🐍 Python: Core programming language
+- 📊 Pandas: Data manipulation and analysis
+- 🧮 NumPy: Numerical computing
+- 📉 Matplotlib, Seaborn, Plotly: Data visualization
+- 🔄 PyTorch: Building the neural network
+- 📈 sklearn: Data preprocessing (train-test split, scaling)
+- 🌐 Streamlit: Model deployment interface
+- 🤗 Hugging Face Spaces: Model hosting and deployment platform
