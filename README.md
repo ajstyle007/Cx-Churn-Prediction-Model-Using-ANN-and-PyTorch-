@@ -9,18 +9,17 @@ Customer churn prediction helps companies identify customers likely to stop usin
 ![app_image](https://github.com/user-attachments/assets/b088e200-9cf8-4657-b270-859f70a4584b)
 
 ### Table of Contents
-- Dataset
-- Installation
-- Workflow
-- Model Architecture
-- Results
-- Deployment
-- Conclusion
+- 📁 Dataset
+- 🧩 Workflow
+- 🏗️ Model Architecture
+- 📈 Results
+- 🚀 Deployment
+- 📝 Conclusion
 
-### Dataset
+### 📁 Dataset
 The dataset was sourced from Kaggle: Credit Card Customer Churn Prediction. It contains customer demographics, account information, and usage metrics, which were processed and fed into the neural network model.
 
-### Workflow
+### 🧩 Workflow
 1. Data Collection
 Downloaded the dataset from Kaggle and loaded it into a pandas DataFrame.
 
@@ -43,8 +42,20 @@ Wrote device-agnostic code to allow training on GPU (if available) or CPU.
 Data Conversion to PyTorch Tensors
 Converted the processed data into PyTorch tensors for efficient handling during training.
 
-7. Model Definition and Architecture
+7. Model Definition 
 Defined an ANN architecture using a custom class CxChurn(nn.Module) with the following structure:
+The model architecture consists of four fully connected layers with ReLU activation and dropout for regularization:
+
+8. Training and Testing
+Defined training and testing loops, using BCEWithLogitsLoss as the loss function and Adam optimizer with a learning rate of 0.001. Achieved 86% accuracy after 2900 epochs.
+
+9. Model Saving
+Saved the trained PyTorch model for future use, achieving a final performance with:
+```
+Epoch: 2900 | Train_Loss:  0.34532 | Train_Acc:  86% | Test_loss:  0.33879 | Test_acc:  86%
+```
+
+### 🏗️ Model Architecture
 The model architecture consists of four fully connected layers with ReLU activation and dropout for regularization:
 ```
 class CxChurn(nn.Module):
@@ -74,21 +85,12 @@ model = CxChurn().to(device)
 model
 ```
 
-8. Training and Testing
-Defined training and testing loops, using BCEWithLogitsLoss as the loss function and Adam optimizer with a learning rate of 0.001. Achieved 86% accuracy after 2900 epochs.
-
-9. Model Saving
-Saved the trained PyTorch model for future use, achieving a final performance with:
-```
-Epoch: 2900 | Train_Loss:  0.34532 | Train_Acc:  86% | Test_loss:  0.33879 | Test_acc:  86%
-```
-
-### Results
+### 📈 Results
 The model was trained to an accuracy of 86% with training and testing losses of 0.34532 and 0.33879, respectively.
 
-### Deployment
+### 🚀 Deployment
 Live Web App Link: [Cx Churn Predictor](https://musk12-cx-churn-prediction-with-pytorch.hf.space)
 The Streamlit application provides an interactive platform for making predictions on new customer data. This app was deployed on Hugging Face Spaces for easy access to stakeholders and users.
 
-### Conclusion
+### 📝 Conclusion
 The ANN model accurately predicted customer churn with a high degree of precision. This model can assist businesses in proactively managing customer retention, leading to a better understanding of customer behavior and more targeted marketing strategies.
